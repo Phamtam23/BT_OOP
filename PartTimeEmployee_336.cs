@@ -13,10 +13,19 @@ namespace Bt_OOP
             this.workingHours_336 = workingHours_336;
         }
 
-     
-        public  int calculateSalary_336()
+        public int getworkingHours_336()
         {
-            return workingHours_336 * paymentPerHour_336;
+            return workingHours_336;
+        }
+
+        public void setworkingHours_336(int workingHours_336)
+        {
+            this.workingHours_336 = workingHours_336;
+        }
+
+        public override int calculateSalary_336()
+        {
+            return workingHours_336 * getPaymentPerHour_336();
         }
     }
 }

@@ -8,8 +8,8 @@ namespace Bt_OOP
 {
     abstract class  Employee_336 :IEmployee_336
     {
-        protected String name_336 { get; set; }
-        protected int paymentPerHour_336 { get; set; }
+        protected String name_336;
+        protected int paymentPerHour_336;
 
         public Employee_336(string name, int paymentPerHour)
         {
@@ -18,12 +18,26 @@ namespace Bt_OOP
         }
 
 
-        public String getName_336()
+        public string getName_336()
         {
             return name_336;
         }
-      
+        public void setName_336(string name_336)
+        {
+            this.name_336 = name_336;
+        }
 
+        public int getPaymentPerHour_336()
+        {
+            return paymentPerHour_336;
+        }
+
+        public void setPaymentPerHour_336(int paymentPerHour_336)
+        {
+            this.paymentPerHour_336 = paymentPerHour_336;
+        }
+        public abstract int calculateSalary_336();
+       
 
     }
 }

@@ -13,9 +13,9 @@ namespace Bt_OOP
         { }
 
 
-        public int calculateSalary_336()
+        public override int calculateSalary_336()
         {
-            return 8 * paymentPerHour_336;
+            return 8 * getPaymentPerHour_336();
         }
 
     }

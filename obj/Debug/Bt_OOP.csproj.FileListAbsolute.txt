@@ -1,0 +1,7 @@
+E:\ki225\c#\Bt_OOP\bin\Debug\Bt_OOP.exe.config
+E:\ki225\c#\Bt_OOP\bin\Debug\Bt_OOP.exe
+E:\ki225\c#\Bt_OOP\bin\Debug\Bt_OOP.pdb
+E:\ki225\c#\Bt_OOP\obj\Debug\Bt_OOP.csproj.AssemblyReference.cache
+E:\ki225\c#\Bt_OOP\obj\Debug\Bt_OOP.csproj.CoreCompileInputs.cache
+E:\ki225\c#\Bt_OOP\obj\Debug\Bt_OOP.exe
+E:\ki225\c#\Bt_OOP\obj\Debug\Bt_OOP.pdb
